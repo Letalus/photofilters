@@ -80,26 +80,26 @@ RGBA invert(RGBA color) {
 }
 
 /* adj should be -1 (darker) to 1 (lighter). 0 is unchanged. */
-RGBA brightness(RGBA color, num adj) {
+RGBA brightness(RGBA color, double adj) {
   adj = (adj > 1) ? 1 : adj;
   adj = (adj < -1) ? -1 : adj;
-  adj = ~~(255 * adj).round();
+  adj = (255 * adj).roundToDouble();
   return new RGBA(
-      red: clampPixel(color.red + adj),
-      green: clampPixel(color.green + adj),
-      blue: clampPixel(color.blue + adj),
+      red: clampPixel((color.red + adj).toInt()),
+      green: clampPixel((color.green + adj).toInt()),
+      blue: clampPixel((color.blue + adj).toInt()),
       alpha: color.alpha);
 }
 
 // Better result (slow) - adj should be < 1 (desaturated) to 1 (unchanged) and < 1
-RGBA hueSaturation(RGBA color, num adj) {
-  var hsv = imageUtils.rgbToHsv(color.red, color.green, color.blue);
+RGBA hueSaturation(RGBA color, int adj) {
+  var hsv = imageUtils.rgbToHsv(color.red.toDouble(), color.green.toDouble(), color.blue.toDouble());
   hsv[1] *= adj;
-  var rgb = imageUtils.hsvToRgb(hsv[0], hsv[1], hsv[2]);
+  var rgb = imageUtils.hsvToRgb(hsv[0].toDouble(), hsv[1].toDouble(), hsv[2].toDouble());
   return new RGBA(
-    red: clampPixel(rgb[0]),
-    green: clampPixel(rgb[1]),
-    blue: clampPixel(rgb[2]),
+    red: clampPixel(rgb[0].toInt()),
+    green: clampPixel(rgb[1].toInt()),
+    blue: clampPixel(rgb[2].toInt()),
     alpha: color.alpha,
   );
 }

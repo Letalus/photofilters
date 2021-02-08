@@ -80,21 +80,21 @@ void brightness(Uint8List bytes, num adj) {
   adj = (adj < -1) ? -1 : adj;
   adj = ~~(255 * adj).round();
   for (int i = 0; i < bytes.length; i += 4) {
-    bytes[i] = clampPixel(bytes[i] + adj);
-    bytes[i + 1] = clampPixel(bytes[i + 1] + adj);
-    bytes[i + 2] = clampPixel(bytes[i + 2] + adj);
+    bytes[i] = clampPixel((bytes[i] + adj).toInt());
+    bytes[i + 1] = clampPixel((bytes[i + 1] + adj).toInt());
+    bytes[i + 2] = clampPixel((bytes[i + 2] + adj).toInt());
   }
 }
 
 // Better result (slow) - adj should be < 1 (desaturated) to 1 (unchanged) and < 1
-void hueSaturation(Uint8List bytes, num adj) {
+void hueSaturation(Uint8List bytes, int adj) {
   for (int i = 0; i < bytes.length; i += 4) {
-    var hsv = rgbToHsv(bytes[i], bytes[i + 1], bytes[i + 2]);
+    var hsv = rgbToHsv(bytes[i].toDouble(), bytes[i + 1].toDouble(), bytes[i + 2].toDouble());
     hsv[1] *= adj;
-    var rgb = hsvToRgb(hsv[0], hsv[1], hsv[2]);
-    bytes[i] = clampPixel(rgb[0]);
-    bytes[i + 1] = clampPixel(rgb[1]);
-    bytes[i + 2] = clampPixel(rgb[2]);
+    var rgb = hsvToRgb(hsv[0].toDouble(), hsv[1].toDouble(), hsv[2].toDouble());
+    bytes[i] = clampPixel(rgb[0].toInt());
+    bytes[i + 1] = clampPixel(rgb[1].toInt());
+    bytes[i + 2] = clampPixel(rgb[2].toInt());
   }
 }
 

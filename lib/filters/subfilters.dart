@@ -25,7 +25,7 @@ class ContrastSubFilter extends ColorSubFilter with ImageSubFilter {
 
 ///The [BrightnessSubFilter] class is a SubFilter class to apply [brightness] to an image.
 class BrightnessSubFilter extends ColorSubFilter with ImageSubFilter {
-  final num brightness;
+  final double brightness;
   BrightnessSubFilter(this.brightness);
 
   ///Apply the [BrightnessSubFilter] to an Image.
