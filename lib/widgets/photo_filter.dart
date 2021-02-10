@@ -231,7 +231,7 @@ class _PhotoFilterSelectorState extends State<PhotoFilterSelector> {
   Future<String> get _localPath async {
     final directory = await getApplicationDocumentsDirectory();
 
-    return directory!.path;
+    return directory.path;
   }
 
   Future<File> get _localFile async {
