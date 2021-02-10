@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cfbb984-11c7-41e0-b6a3-de78cb3106f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/Debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/Release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/filters/color_filters.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/filters/color_filters.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/filters/filters.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/filters/filters.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/filters/image_filters.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/filters/image_filters.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/filters/subfilters.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/filters/subfilters.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/color_filter_utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/color_filter_utils.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/image_filter_utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/image_filter_utils.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils/utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils/utils.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/photo_filter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/photo_filter.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photofilters.iml" beforeDir="false" afterPath="$PROJECT_DIR$/photofilters.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_utils.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,25 +43,45 @@
       <option name="presentableId" value="Default" />
       <updated>1612771847891</updated>
     </task>
+    <task id="LOCAL-00001" summary="implementing null safety">
+      <created>1612776971009</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612776971009</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implementing null safety" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing null safety" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1644" height="149" key="GridCell.Tab.0.bottom" timestamp="1612776542438">
+    <state x="1661" y="50" key="CommitChangelistDialog2" timestamp="1612776970258">
       <screen x="0" y="25" width="3840" height="996" />
     </state>
-    <state width="1644" height="149" key="GridCell.Tab.0.bottom/0.25.3840.996@0.25.3840.996" timestamp="1612776542438" />
-    <state width="1644" height="149" key="GridCell.Tab.0.center" timestamp="1612776542437">
+    <state x="1661" y="50" key="CommitChangelistDialog2/0.25.3840.996@0.25.3840.996" timestamp="1612776970258" />
+    <state width="1232" height="157" key="GridCell.Tab.0.bottom" timestamp="1612777970181">
       <screen x="0" y="25" width="3840" height="996" />
     </state>
-    <state width="1644" height="149" key="GridCell.Tab.0.center/0.25.3840.996@0.25.3840.996" timestamp="1612776542437" />
-    <state width="1644" height="149" key="GridCell.Tab.0.left" timestamp="1612776542437">
+    <state width="1232" height="157" key="GridCell.Tab.0.bottom/0.25.3840.996@0.25.3840.996" timestamp="1612777970181" />
+    <state width="1232" height="157" key="GridCell.Tab.0.center" timestamp="1612777970180">
       <screen x="0" y="25" width="3840" height="996" />
     </state>
-    <state width="1644" height="149" key="GridCell.Tab.0.left/0.25.3840.996@0.25.3840.996" timestamp="1612776542437" />
-    <state width="1644" height="149" key="GridCell.Tab.0.right" timestamp="1612776542438">
+    <state width="1232" height="157" key="GridCell.Tab.0.center/0.25.3840.996@0.25.3840.996" timestamp="1612777970180" />
+    <state width="1232" height="157" key="GridCell.Tab.0.left" timestamp="1612777970180">
       <screen x="0" y="25" width="3840" height="996" />
     </state>
-    <state width="1644" height="149" key="GridCell.Tab.0.right/0.25.3840.996@0.25.3840.996" timestamp="1612776542438" />
+    <state width="1232" height="157" key="GridCell.Tab.0.left/0.25.3840.996@0.25.3840.996" timestamp="1612777970180" />
+    <state width="1232" height="157" key="GridCell.Tab.0.right" timestamp="1612777970180">
+      <screen x="0" y="25" width="3840" height="996" />
+    </state>
+    <state width="1232" height="157" key="GridCell.Tab.0.right/0.25.3840.996@0.25.3840.996" timestamp="1612777970180" />
+    <state x="236" y="213" key="Vcs.Push.Dialog.v2" timestamp="1612777156876">
+      <screen x="0" y="25" width="3840" height="996" />
+    </state>
+    <state x="236" y="213" key="Vcs.Push.Dialog.v2/0.25.3840.996@0.25.3840.996" timestamp="1612777156876" />
     <state x="1360" y="125" width="1486" height="703" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612773499048">
       <screen x="0" y="25" width="3840" height="996" />
     </state>
